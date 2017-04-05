@@ -1,0 +1,32 @@
+﻿@using SportsMvcApp.Models
+@model IEnumerable<UserRoleViewModel>
+
+
+@{
+    ViewBag.Title = "UserRole";
+}
+
+<h2></h2>
+
+<fieldset>
+    <legend>User Role</legend>
+    <table class="table table-bordered table-condensed">
+        <thead>
+            <tr>
+                <th>User</th>
+                <th>Role</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.UserName</td>
+                    <td>@item.RoleName</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</fieldset>
+
+@Html.ActionLink("Assign Role", "AssignRole", "Account")

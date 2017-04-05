@@ -1,0 +1,251 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Supplier</h2>
+
+<script src="~/scripts/jquery-1.10.2.min.js"></script>
+<script src="~/scripts/jquery.unobtrusive-ajax.min.js"></script>
+
+<button id="btnAddSupp" class="btn btn-info" data-toggle="modal" data-target="#supplierModal">Add Supplier</button>
+
+<div>
+    @using (Ajax.BeginForm(new AjaxOptions()
+        {
+            Url = "/api/SupplierApi",
+            HttpMethod = "Post",
+            LoadingElementId = "loaderDiv",
+            OnBegin = "beginOperation",
+            OnComplete = "completeOperation",
+            OnSuccess = "SuccessResponse"
+        }))
+        {
+          //Post....
+        <div class="modal fade" id="supplierModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button class="close" data-dismiss="modal" data-toggle="modal">&times;</button>
+                        <h4 class="modal-title">Supplier</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="txtId">ID</label>
+                            <input class="form-control" disabled name="ID" type="text" id="txtId" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="txtName">Name</label>
+                            <input class="form-control" name="Name" type="text" id="txtName" />
+                        </div>
+                        <div class="form-group">
+                            <label for="txtEmail">Email</label>
+                            <input class="form-control" name="Email" type="text" id="txtEmail" />
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="pull-left" id="loaderDiv" style="display:none">
+                            Processing...
+                        </div>
+                        <input type="submit" class="btn btn-success" value="Save" />
+                        <button class="btn btn-primary" data-dismiss="modal" data-toggle="modal">Close</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    }
+
+</div>
+
+        @*Delete ....*@
+<div class="modal fade" id="deleteModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" data-dismiss="modal" data-toggle="modal">&times;</button>
+                <h4 class="modal-title">Confirmation!</h4>
+            </div>
+
+            <div class="modal-body jumbotron">
+                <div id="lblId"></div>
+                <div id="lblName"></div>
+                <div id="lblEmail"></div>
+                
+                <hr />
+                <h4>Are you sure you want to delete this record?</h4>
+            </div>
+            <div class="modal-footer">
+                <input type="submit" id="btnDelete" class="btn btn-danger" value="Delete" />
+                <button class="btn btn-primary" data-dismiss="modal" data-toggle="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+        @*Edit....*@
+<div class="modal fade" id="supplierModalEdit">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" data-dismiss="modal" data-toggle="modal">&times;</button>
+                <h4 class="modal-title">Supplier</h4>
+            </div>
+
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="txtId1">ID</label>
+                    <input class="form-control" disabled name="ID" type="text" id="txtId1" />
+                </div>
+
+                <div class="form-group">
+                    <label for="txtName1">Name</label>
+                    <input class="form-control" name="Name" type="text" id="txtName1" />
+                </div>
+                <div class="form-group">
+                    <label for="txtEmail1">Email</label>
+                    <input class="form-control" name="Email" type="text" id="txtEmail1" />
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="pull-left" id="loaderDiv" style="display:none">
+                    Processing...
+                </div>
+                <input type="submit" id="btnUpdate" class="btn btn-success" value="Update" />
+                <button class="btn btn-primary" data-dismiss="modal" data-toggle="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+        @*Layout....*@
+<div>
+    <table id="suppTbl" class="table table-bordered table-condensed">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th colspan='2'>Action</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+
+<script>
+    $(function () {
+        loadSupplier();
+        $('#btnUpdate').click(function () {           
+
+            var supp = new Object();
+            supp.Id = $('#txtId1').val();
+            supp.Name = $('#txtName1').val();
+            supp.Email = $('#txtEmail1').val();
+                     
+            $.ajax({
+                url: '/api/SupplierApi',
+                type: 'Put',
+                dataType: 'json',
+                data: supp,               
+                success: function (res) {
+                    loadSupplier();
+                    $('#supplierModalEdit').modal('hide');
+                }
+            })
+        })
+
+
+        $('#btnDelete').click(function () {
+
+            var supp = new Object();
+            supp.Id = $('#lblId').html();
+            supp.Name = $('#lblName').html();
+            supp.Email = $('#lblEmail').html();
+
+            $.ajax({
+                url: '/api/SupplierApi',
+                type: 'Delete',
+                dataType: 'json',
+                data: supp,
+                success: function (res) {
+                    loadSupplier();
+                    $('#deleteModal').modal('hide');
+                }
+            })
+        })
+
+
+    })
+
+    function beginOperation() {
+        $('#loaderDiv').show();
+    }
+    function completeOperation() {
+        $('#loaderDiv').hide();
+    }
+
+    function SuccessResponse() {
+        $('#supplierModal').modal('hide');
+        loadSupplier();
+    }
+
+         //Get Function Using jQuery Ajax.....
+    function loadSupplier() {
+        $.ajax({
+            url: '/api/SupplierApi',
+            type: 'Get',
+            dataType: 'json',
+            success: function (res) {
+                var target = $('#suppTbl tbody');
+                target.empty();
+
+                $.each(res, function (key, value) {
+                    var x = {
+                        'Id': value.ID,
+                        'Name' : value.Name,
+                        'Email' : value.Email
+                    }                   
+                    var suppData = JSON.stringify(x);                   
+                    
+                    $('<tr><td>' + value.ID + '</td><td>' + value.Name + '</td><td>' + value.Email + "</td><td ><a class='btn btn-primary btn-sm' onclick='javascript:getSupplierData(" + suppData + ")'>Edit</a><a class='btn btn-primary btn-sm' onclick='javascript:deleteSupplierData(" + suppData + ")'>Delete</a></td></tr>").appendTo(target);
+                })
+            }
+        })
+    }
+
+    function deleteSupplierData(data) {
+        var supp = new Object();
+        supp.Id = data.Id;
+        supp.Name = data.Name;
+        supp.Email = data.Email;
+
+        
+        $('#lblId').html(data.Id);
+        $('#lblName').html(data.Name);
+        $('#lblEmail').html(data.Email);
+        $('#deleteModal').modal('show');
+
+        
+    }
+
+    function getSupplierData(data) {
+        
+        $('#txtId1').val(data.Id);
+        $('#txtName1').val(data.Name);
+        $('#txtEmail1').val(data.Email);
+
+        $('#supplierModalEdit').modal('show');
+
+
+
+    }
+</script>

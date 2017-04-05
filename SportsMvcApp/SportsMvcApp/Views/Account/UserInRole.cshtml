@@ -1,0 +1,33 @@
+﻿@model IEnumerable<SportsMvcApp.Models.User>
+
+@{
+    ViewBag.Title = "UserInRole";
+}
+
+<h2>UserInRole</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Role.RoleName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UserName)
+        </th>       
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Role.RoleName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserName)
+        </td>
+    </tr>
+}
+
+</table>

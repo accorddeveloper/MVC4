@@ -1,0 +1,106 @@
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\ApplicationInsights.config
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\roslyn\csc.exe
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\roslyn\System.Collections.Immutable.dll
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\roslyn\vbc.exe
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\roslyn\VBCSCompiler.exe
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\roslyn\VBCSCompiler.exe.config
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\SportsMvcApp.dll.config
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\SportsMvcApp.dll
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\SportsMvcApp.pdb
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\EntityFramework.dll
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\EntityFramework.SqlServer.dll
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\Microsoft.AI.Web.dll
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\Microsoft.AI.WindowsServer.dll
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\Microsoft.ApplicationInsights.dll
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\Microsoft.Web.Infrastructure.dll
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\System.Web.Helpers.dll
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\System.Web.Mvc.dll
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\System.Web.Razor.dll
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\System.Web.Webpages.Deployment.dll
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\System.Web.Webpages.dll
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\System.Web.Webpages.Razor.dll
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\EntityFramework.xml
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\EntityFramework.SqlServer.xml
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\Microsoft.AI.Web.xml
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\Microsoft.AI.WindowsServer.xml
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\Microsoft.ApplicationInsights.xml
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\System.Web.Razor.xml
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\System.Web.Webpages.xml
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\System.Web.Webpages.Deployment.xml
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\System.Web.Webpages.Razor.xml
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\System.Web.Helpers.xml
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\bin\System.Web.Mvc.xml
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\obj\Debug\SportsMvcApp.dll
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\obj\Debug\SportsMvcApp.pdb
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\obj\Debug\SportsMvcApp.Migrations.InitialCreate.resources
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\obj\Debug\SportsMvcApp.csproj.GenerateResource.Cache
+c:\users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\obj\Debug\SportsMvcApp.Migrations.AddTablePlayer.resources
+C:\Users\student\documents\visual studio 2015\Projects\SportsMvcApp\SportsMvcApp\obj\Debug\SportsMvcApp.csprojResolveAssemblyReference.cache
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\ApplicationInsights.config
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\roslyn\csc.exe
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\roslyn\System.Collections.Immutable.dll
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\roslyn\System.Reflection.Metadata.dll
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\roslyn\vbc.exe
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\roslyn\VBCSCompiler.exe
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\roslyn\VBCSCompiler.exe.config
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\SportsMvcApp.dll.config
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\SportsMvcApp.dll
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\SportsMvcApp.pdb
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\EntityFramework.dll
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\EntityFramework.SqlServer.dll
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\Microsoft.AI.Agent.Intercept.dll
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\Microsoft.AI.DependencyCollector.dll
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\Microsoft.AI.Web.dll
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\Microsoft.AI.WindowsServer.dll
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\Microsoft.ApplicationInsights.dll
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\Microsoft.Web.Infrastructure.dll
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\System.Web.Helpers.dll
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\System.Web.Mvc.dll
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\System.Web.Razor.dll
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\System.Web.Webpages.Deployment.dll
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\System.Web.Webpages.dll
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\System.Web.Webpages.Razor.dll
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\EntityFramework.xml
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\EntityFramework.SqlServer.xml
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\Microsoft.AI.DependencyCollector.xml
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\Microsoft.AI.Web.xml
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\Microsoft.AI.WindowsServer.xml
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\Microsoft.ApplicationInsights.xml
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\System.Web.Razor.xml
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\System.Web.Webpages.xml
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\System.Web.Webpages.Deployment.xml
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\System.Web.Webpages.Razor.xml
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\System.Web.Helpers.xml
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\bin\System.Web.Mvc.xml
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\obj\Debug\SportsMvcApp.csprojResolveAssemblyReference.cache
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\obj\Debug\SportsMvcApp.Migrations.InitialCreate.resources
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\obj\Debug\SportsMvcApp.Migrations.AddTablePlayer.resources
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\obj\Debug\SportsMvcApp.csproj.GenerateResource.Cache
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\obj\Debug\SportsMvcApp.dll
+F:\IDB\MVC 4\MVCWork\SportsMvcApp\SportsMvcApp\obj\Debug\SportsMvcApp.pdb

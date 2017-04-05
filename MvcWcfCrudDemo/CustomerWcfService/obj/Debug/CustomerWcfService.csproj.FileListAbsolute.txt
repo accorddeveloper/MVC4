@@ -1,0 +1,45 @@
+c:\users\student\documents\visual studio 2015\Projects\MvcWcfCrudDemo\CustomerWcfService\bin\ApplicationInsights.config
+c:\users\student\documents\visual studio 2015\Projects\MvcWcfCrudDemo\CustomerWcfService\bin\CustomerWcfService.dll.config
+c:\users\student\documents\visual studio 2015\Projects\MvcWcfCrudDemo\CustomerWcfService\bin\CustomerWcfService.dll
+c:\users\student\documents\visual studio 2015\Projects\MvcWcfCrudDemo\CustomerWcfService\bin\CustomerWcfService.pdb
+c:\users\student\documents\visual studio 2015\Projects\MvcWcfCrudDemo\CustomerWcfService\bin\EntityFramework.dll
+c:\users\student\documents\visual studio 2015\Projects\MvcWcfCrudDemo\CustomerWcfService\bin\EntityFramework.SqlServer.dll
+c:\users\student\documents\visual studio 2015\Projects\MvcWcfCrudDemo\CustomerWcfService\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\student\documents\visual studio 2015\Projects\MvcWcfCrudDemo\CustomerWcfService\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\student\documents\visual studio 2015\Projects\MvcWcfCrudDemo\CustomerWcfService\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\student\documents\visual studio 2015\Projects\MvcWcfCrudDemo\CustomerWcfService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\student\documents\visual studio 2015\Projects\MvcWcfCrudDemo\CustomerWcfService\bin\Microsoft.AI.Web.dll
+c:\users\student\documents\visual studio 2015\Projects\MvcWcfCrudDemo\CustomerWcfService\bin\Microsoft.AI.WindowsServer.dll
+c:\users\student\documents\visual studio 2015\Projects\MvcWcfCrudDemo\CustomerWcfService\bin\Microsoft.ApplicationInsights.dll
+c:\users\student\documents\visual studio 2015\Projects\MvcWcfCrudDemo\CustomerWcfService\bin\EntityFramework.xml
+c:\users\student\documents\visual studio 2015\Projects\MvcWcfCrudDemo\CustomerWcfService\bin\EntityFramework.SqlServer.xml
+c:\users\student\documents\visual studio 2015\Projects\MvcWcfCrudDemo\CustomerWcfService\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\student\documents\visual studio 2015\Projects\MvcWcfCrudDemo\CustomerWcfService\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\student\documents\visual studio 2015\Projects\MvcWcfCrudDemo\CustomerWcfService\bin\Microsoft.AI.Web.xml
+c:\users\student\documents\visual studio 2015\Projects\MvcWcfCrudDemo\CustomerWcfService\bin\Microsoft.AI.WindowsServer.xml
+c:\users\student\documents\visual studio 2015\Projects\MvcWcfCrudDemo\CustomerWcfService\bin\Microsoft.ApplicationInsights.xml
+c:\users\student\documents\visual studio 2015\Projects\MvcWcfCrudDemo\CustomerWcfService\obj\Debug\CustomerWcfService.dll
+c:\users\student\documents\visual studio 2015\Projects\MvcWcfCrudDemo\CustomerWcfService\obj\Debug\CustomerWcfService.pdb
+F:\IDB\MVC 4\MVCWork\MvcWcfCrudDemo\CustomerWcfService\bin\ApplicationInsights.config
+F:\IDB\MVC 4\MVCWork\MvcWcfCrudDemo\CustomerWcfService\bin\CustomerWcfService.dll.config
+F:\IDB\MVC 4\MVCWork\MvcWcfCrudDemo\CustomerWcfService\bin\CustomerWcfService.dll
+F:\IDB\MVC 4\MVCWork\MvcWcfCrudDemo\CustomerWcfService\bin\CustomerWcfService.pdb
+F:\IDB\MVC 4\MVCWork\MvcWcfCrudDemo\CustomerWcfService\bin\EntityFramework.dll
+F:\IDB\MVC 4\MVCWork\MvcWcfCrudDemo\CustomerWcfService\bin\EntityFramework.SqlServer.dll
+F:\IDB\MVC 4\MVCWork\MvcWcfCrudDemo\CustomerWcfService\bin\Microsoft.AI.Agent.Intercept.dll
+F:\IDB\MVC 4\MVCWork\MvcWcfCrudDemo\CustomerWcfService\bin\Microsoft.AI.DependencyCollector.dll
+F:\IDB\MVC 4\MVCWork\MvcWcfCrudDemo\CustomerWcfService\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\IDB\MVC 4\MVCWork\MvcWcfCrudDemo\CustomerWcfService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\IDB\MVC 4\MVCWork\MvcWcfCrudDemo\CustomerWcfService\bin\Microsoft.AI.Web.dll
+F:\IDB\MVC 4\MVCWork\MvcWcfCrudDemo\CustomerWcfService\bin\Microsoft.AI.WindowsServer.dll
+F:\IDB\MVC 4\MVCWork\MvcWcfCrudDemo\CustomerWcfService\bin\Microsoft.ApplicationInsights.dll
+F:\IDB\MVC 4\MVCWork\MvcWcfCrudDemo\CustomerWcfService\bin\EntityFramework.xml
+F:\IDB\MVC 4\MVCWork\MvcWcfCrudDemo\CustomerWcfService\bin\EntityFramework.SqlServer.xml
+F:\IDB\MVC 4\MVCWork\MvcWcfCrudDemo\CustomerWcfService\bin\Microsoft.AI.DependencyCollector.xml
+F:\IDB\MVC 4\MVCWork\MvcWcfCrudDemo\CustomerWcfService\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\IDB\MVC 4\MVCWork\MvcWcfCrudDemo\CustomerWcfService\bin\Microsoft.AI.Web.xml
+F:\IDB\MVC 4\MVCWork\MvcWcfCrudDemo\CustomerWcfService\bin\Microsoft.AI.WindowsServer.xml
+F:\IDB\MVC 4\MVCWork\MvcWcfCrudDemo\CustomerWcfService\bin\Microsoft.ApplicationInsights.xml
+F:\IDB\MVC 4\MVCWork\MvcWcfCrudDemo\CustomerWcfService\obj\Debug\CustomerWcfService.csprojResolveAssemblyReference.cache
+F:\IDB\MVC 4\MVCWork\MvcWcfCrudDemo\CustomerWcfService\obj\Debug\CustomerWcfService.dll
+F:\IDB\MVC 4\MVCWork\MvcWcfCrudDemo\CustomerWcfService\obj\Debug\CustomerWcfService.pdb
