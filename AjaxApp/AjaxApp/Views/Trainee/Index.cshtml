@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<script src="~/scripts/jquery-1.10.2.min.js"></script>
+<script src="~/scripts/jquery.unobtrusive-ajax.min.js"></script>
+
+<div id="maindiv">
+    @Ajax.ActionLink("Display Trainee", "Display", "Trainee", new AjaxOptions()
+{
+    HttpMethod = "Post",
+    InsertionMode = InsertionMode.Replace,
+    UpdateTargetId = "maindiv",
+    OnBegin = "beginFunction",
+    OnComplete = "completeFuction",
+    LoadingElementId = "loadingDiv"
+})
+</div>
+
+<div id="loadingDiv" style="display:none">
+    Loading.............
+</div>
+
+<div id="displayStudent">
+    <a id="showSt" href="#">Display Pet Photo</a>
+</div>
+@section Scripts{
+    <script>
+
+        $(function () {
+            $('#showSt').on("click", function () {
+
+                $.ajax({
+                    url: '/Trainee/Display',
+                    type: 'post',
+                    dataType: 'html',
+                    beforeSend: beforeSend,
+                    complete: completeSend,
+                    success: function (data) {
+                        $('#displayStudent').html(data);
+                    }
+                })
+            })
+
+            function beforeSend() {
+                $('#loadingDiv').show();
+            }
+            function completeSend() {
+                $('#loadingDiv').hide();
+            }
+
+        })
+
+    </script>
+}
+
+
