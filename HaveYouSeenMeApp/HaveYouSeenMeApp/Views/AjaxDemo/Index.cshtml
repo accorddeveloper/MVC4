@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div>
+    <input type="text" id="txtName" /><br />
+    <div id="result"></div><br />
+
+</div>
+
+@section Scripts{
+
+<script>
+    $(function () {
+        $('#txtName').on('blur', function () {
+            var name = $(this).val();
+            var _url = "/AjaxDemo/Index/" + name;
+            $.ajax({
+                url: _url,
+                type: "post",
+                success: function (response) {
+                    $('#result').html(response);
+                }
+            })
+        })
+    })
+</script>    
+
+}

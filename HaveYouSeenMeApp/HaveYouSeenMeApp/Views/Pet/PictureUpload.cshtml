@@ -1,0 +1,35 @@
+﻿@using HaveYouSeenMeApp.Models
+@model PictureViewModel
+
+@{
+    ViewBag.Title = "PictureUpload";
+}
+
+@using (Html.BeginForm(null, null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Picture Upload</legend> 
+        <div class="form-group">
+            @Html.LabelFor(m=>m.PictureFile)
+            @Html.TextBoxFor(m=>m.PictureFile, new { type="file", @class ="form-control" })
+            @Html.ValidationMessageFor(m=>m.PictureFile,"", new { @class = "text-danger" })
+            @Html.LabelFor(m => m.ImageHeight)
+            @Html.TextBoxFor(m => m.ImageHeight, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.ImageHeight, "", new { @class = "text-danger" })
+            @Html.LabelFor(m => m.ImageWidth)
+            @Html.TextBoxFor(m => m.ImageWidth, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.ImageWidth, "", new { @class = "text-danger" })
+        </div>
+        <div>
+            <input type="submit"  value="Save" />
+        </div>
+    </fieldset>
+}
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
