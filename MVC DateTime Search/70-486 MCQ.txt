@@ -1,0 +1,325 @@
+1.  You are designing an application in which a section of the main page will be populated by content from a third-party provider. You do not have control over the responsiveness of the client or how much information will be returned with each request. The call is to a RESTful service and will return the information formatted in Extensible Markup 
+Language (XML). What is the best way to implement this application?
+
+A.  Design a model that handles the data call to populate the model. Create a partial view containing only this display area and put an asynchronous service call that returns this model in the partial view controller.
+B.  Put a synchronous service call into the main page controller.
+C.  Create a partial view containing only this display area and put a synchronous ser-vice call in the partial view controller.
+D.  Create a partial view containing only this display area and put an asynchronous 
+service call in the partial view controller.
+
+2. You have been given requirements for a dashboard page that will contain summary information from your order processing system in a single display table. However, this summarization needs to be done by combining data requests from the order system, the shipping system, and the accounting system. The dashboard page will be the only place you use this combined data. What is the best way to implement this requirement?
+A.  Make the various data requests and compile the information in the controller for display.
+B.  Create an individual model for each of the data requests, and then create a view-specific model that calls those models and merges the data.
+C.  Create a model for the summary data and handle the various data requests within that model as well as the merging of the data.
+D.  Create an individual model for each of the data requests and then merge the data on the client side for display.
+
+3. A significant change has been requested in an application maintained within your company. The application is a classic ASP application that uses custom Open Database Connectivity (ODBC) drivers to connect to a relational data repository on a mainframe computer. The CIO decided that the company needs to replace this 30-year-old sys-tem. The team that worked on the original project is made up of developers who have never worked with an object-oriented approach before. Which approaches would be the best to use when designing your initial schema in Entity Framework? (Choose all that apply.)
+A.  Create your own custom design because it’s too much work to manage an inexpe-rienced staff.
+B.  Use Code First.
+C.  Use Model First.
+D.  Use Database First.
+
+4. You are designing an application that allows employees to change their human resources (HR) information, such as next of kin and direct deposit information. The re-quirements state that the application should talk directly to the HR systems’ database. However, at a recent company meeting, the CFO announced that the company will be converting to a new HR system over the next two years. They will take an additional year to move employees to the new system, one department at a time. How will this affect your design?
+A.  It won’t; the requirements state that the application should talk directly to the HR systems’ database.
+B.  You should ensure your naming convention for the database as clearly as possible so you can rework your data calls with minimal changes.
+C.  You should implement the Repository pattern with the current HR system being the first repository that is built. When the second system comes online, you imple-ment that data access using the same pattern.
+D.  You should map the model directly to the database calls, anticipating that you will have to change the model as the new system rolls out.
+
+5. You are developing an application. One requirement is that part of your data access layer needs to be available to a third party, that wants to get this information from a REST URL in XML. Your company does not have experience with web services, but you have several websites running ASP.NET MVC 4. How could you design and provide these new services? (Choose all that apply.)
+A.  Task an individual on staff to learn WCF, and have this individual develop and de-ploy these new services using WCF.
+B.  Use the Web API to create REST services using ApiControllerin which the serializa-tion type is defined by the Acceptsproperty of the browser.
+C.  Build a basic ASP.NET MVC 4 project in which the view simply passes through the information provided by the controller, and the controller manages the code for serializing the response.
+D.  Create an ASP.NET ASMX services file to get, serialize, and return the data.
+
+6.  How could you traditionally consume an ASMX web service from your application? 
+(Choose all that apply.)
+A.  Generate a proxy by selecting Add Reference In Visual Studio.
+B.  Create an HttpServiceand connect using Get(URL).
+C.  Generate a proxy by selecting Add A Service Reference in Visual Studio.
+D.  Create a WCF proxy class.
+
+7.  What are examples of hybrid applications using Windows Azure? (Choose all that apply.)
+A.  An application where the local network hosts the IIS server while the database is being run from the corporate IT office
+B.  An application where Windows Azure is used to host the IIS process, and Windows Azure SQL is used to store the data
+C.  An application where the IIS process is run on a local web server, whereas the data is stored in Windows Azure SQL
+D.  An application where the web part of the application is run on Windows Azure, whereas the confidential data is stored in the company’s network
+
+8. Which of the following are valid reasons for overriding the Runmethod? (Choose all that apply.)
+A.  Creating and starting a messaging service that will work in parallel with the Web role to manage queued messages
+B.  Creating an always-running service that periodically makes HTTP calls to other websites to determine their availability
+C.  Managing error handling for the application
+D.  Starting and supporting a logging application for use by the Worker role
+
+9. You are designing an ASP.NET MVC 4 application that uses an Oracle database for persistence. What session configuration choices enable you to deploy your application on a web farm? (Choose all that apply.)
+A.  InProc
+B.  SQLServer
+C.  StateServer
+D.  Custom session provider
+
+10. You are creating an ASP.NET MVC 4 web application that will be accessed by a large number of traditional consumers. If you need to be able to access state information on the client side in JavaScript/jQuery, where can you store it? (Choose all that apply.)
+A.  localStorage
+B.  QueryString
+C.  ViewState
+D.  Cookies
+
+11.  As you design a sessionless state management system, what do you need to ensure that your application manages? (Choose all that apply.)
+A.  Access to the state management system, whether it is a database, a web service, or other type of system
+B.  The HTTP headers
+C.  The session setting within the Web.config file
+D.  An identifier used by the server to identify the request
+
+12. You are designing a work order management application for a mid-size repair com-pany. The application will be used by repair personnel in the field on their laptops with wireless phone connections. The connections are slow, and the laptops are several years out of date. There will never be more than 15 users at any one time, and rarely more than 2 concurrent users. What kind of caching will give the repair personnel a better user experience? (Choose all that apply.)
+A.  Page output caching
+B.  Application caching
+C.  Data caching
+D.  HTTP caching
+
+13. You are creating a solution in which the majority of the application is dynamic, but some areas can be cached for a long time. What kind of approach would you take? (Choose all that apply.)
+A.  Data caching
+B.  Donut hole caching
+C.  Donut caching
+D.  Windows AppFabric caching
+
+14. You are adding a reporting vertical to an enterprise application. Many of the reports will be run every morning by a set of users. Some of the reports will be identical as every member of a team will get the same report sometime in the morning. What kind 
+of caching will provide an improvement in performance? (Choose all that apply.)
+A.  Data caching
+B.  Page output caching with a duration of two minutes 
+C.  Page output caching with a duration of four hours 
+D.  Windows AppFabric caching
+
+15. What is the technique in which the client sends a request to the server, and the server holds the response until it either times out or has information to send to the client is?
+A.  HTTP polling
+B.  HTTP long polling
+C.  WebSockets
+D.  HTTP request-response
+
+16. You are building an application in which you want to display updated information to a website every 15 minutes. What are efficient ways to manage the update? (Choose all that apply.)
+A.  WebSockets
+B.  HTTP polling with 1-minute intervals
+C.  HTTP long polling
+D.  HTTP polling with 15-minute intervals
+
+17.  What is the first request sent to start HTTP polling?
+A.  HTTP DELETE
+B.  HTTP GET
+C.  HTTP CONNECT
+D.  Upgrade request
+
+18. In an HTTP module, can you redirect the request to a different handler than is in the routing table? If so, what event would you handle?
+A.  Yes, and you handle the PostAuthorizeRequestevent.
+B.  No, after the request starts into the process, it either continues through to the mapped handler or throws an error.
+C.  Yes, and you handle the MapRequestHandlerevent.
+D.  Yes, and you handle the ReleaseRequestStateevent.
+
+19.  When you are creating a custom handler, what is the parameter being passed into the ProcessRequestmethod?
+A.  object, EventArgs
+B.  HttpApplication
+C.  HttpContext
+D.  Object
+
+20.  What is the best way to intercept every request for an image on your site and ensure that a watermark is added to the image?
+A.  An HTTP module handling the AuthorizeRequestevent
+B.  A custom HTTP handler set to handle .htm and .html pages
+C.  A custom HTTP handler configured to serve .png and .jpg files
+D.  An HTTP module handling the PostRequestHandlerExecuteevent
+
+21. You are designing a web application. You want to create a certain look and feel while reusing styles across pages as much as possible. How should you handle styles?
+A.  Use only one or two styles throughout your application to simplify maintenance.
+B.  Use a specific (unique) style for every element.
+C.  Use general styles for common elements and specific styles for elements that are unique.
+D.  Use inline styling.
+
+22.  What are compelling reasons to switch from static web content to dynamic web con-tent? (Choose all that apply.)
+A.  The ability to substitute a new image for the company logo
+B.  The ability to display information from a database
+C.  The ability to link to other pages outside of your application
+D.  The ability to display information pertaining to the current user
+
+23. You are creating an ASP.NET MVC web application. The application must accept user input for a ProductName field. To reduce delays due to invalid entries making round trips between the client and server, user input should be validated on the client before 
+being submitted to the server. Which code segment should you choose?
+A.  <div class=”editor-label”>
+@Html.LabelFor(model => model.ProductName)
+</div>
+<div class=”editor-field”>
+@Html.EditorFor(model => model.ProductName)
+</div>
+B.  <div class=”editor-label”>
+@Html.LabelFor(model => model.ProductName)
+</div>
+<div class=”editor-field”>
+@Html.ValidationMessageFor (model => model.ProductName)
+</div>
+C.  <div class=”editor-field”>
+@Html.EditorFor(model => model.ProductName)
+@Html.ValidationMessageFor(model => model.ProductName)
+</div>
+D.  <div class=”editor-label”>
+@Html.LabelFor(model => model.ProductName)
+</div>
+
+24. Your team is building an application and you are reviewing the functional specifica-tions. Your team must include a stockticker in the UI that displays the company’s stock price every 15 minutes, and include the capability to do partial saves of base objects as 
+users step through a data entry wizard. You want to use the same approach for both requirements to make it easier to add functionality and maintain it going forward. What approach should you use?
+A.  Use JavaScript to refresh the page every 15 minutes and to manage whether wiz-ard buttons are enabled or disabled.
+B.  Use AJAX to make asynchronous calls to the server on a timer for the stock price and to automatically save the base objects as the user navigates through the wizard.
+C.  Use jQuery to refresh the page every 15 minutes and to manage whether wizard buttons are enabled or disabled.
+D.  Use data validation annotations on the model to ensure that the stock price is vali-dated every 15 minutes and that the client saves the base object information after every wizard step
+
+25. You are creating an ASP.NET MVC web application. Within the application, you have created a partial view for contact email and phone number. Which code segment should you use to display the partial view on the main page?
+A.  <div class=”float-right”>
+<section id=”contact”>
+@Html.ActionLink(“ContactPartial”)
+</section>
+</div>
+B.  <div class=”float-right”>
+<section id=”contact”>
+@Html.Partial(“ContactPartial”)
+</section>
+</div>
+C.  <div class=”float-right”>
+<section id=”contact”>
+@RenderPage(“ContactPartial”)
+</section>
+</div>
+D.  <div class=”float-right”>
+<section id=”contact “>
+@RenderBody()
+</section>
+</div>
+
+26.  You are creating an ASP.NET MVC web application. The application accepts phone number input through the application’s form. When viewing the source from a brows-er, you find the following code:PhoneNumber: <input id=”phoneNumber” name=”phoneNumber” size=”10” 
+type=”text” value=”” /><br /> What Razor syntax code segment was used?
+A.  PhoneNumber: <input id=”phoneNumber” name=”phoneNumber” size=”10” type=”text” value=”3125551212” /><br />
+B.  <div class=”editor-field”> @Html.EditorFor(model => model.PhoneNumber) </div>
+C.  PhoneNumber: @Html.TextBox(“phoneNumber”, Request[“phoneNumber”], new { @placeholder = “3125551212”})<br />
+D.  PhoneNumber: @Html.TextBox(“phoneNumber”, Request[“phoneNumber”], new { size = 10 })<br />
+
+27.  You are modifying an ASP.NET MVC web application and you have created a new mas-ter layout page named _Layout.WindowsPhone.cshtml. You want to use that layout in a new view. Which code segment do you use?
+A.  @Html.ActionLink(“_Layout.WindowsPhone.cshtml”);
+B.  Layout=”~/Views/Shared/_Layout.WindowsPhone.cshtml”;
+C.  Layout=”Layout.WindowsPhone.cshtml”;
+D.  @Html.Partial(“_Layout.WindowsPhone.cshtml”);
+
+28. What are common methods for detecting the type of browser running on a client? (Choose all that apply.)
+A.  Use JavaScript to query for the userAgentheader.
+B.  Use the window.addEventListenermethod. 
+C.  Use the viewport <meta>tag.
+D.  Use the DisplayModeprovider
+
+29. You are creating a different view for each of several different browsers/devices, such as Home.iemobile.cshtml and Home.IPad.cshtml. What is the best way to implement it so your application knows to look for the specific views?
+A.  Use the viewport <meta>tag.
+B.  Add a new DisplayModeProvider for each of the special view types you want to support.
+C.  Put logic into each action to select the appropriate view based on information in the request.
+D.  You don’t have to do anything. The framework automatically handles browser/de-vice detection by reading the new extensions on the views.
+
+30. You are creating an ASP.NET MVC web application, and you decide to create a new layout for mobile devices with relatively small screens. Which @mediaquery should you create or modify to accomplish the task? (Choose all that apply.)
+A.  @media (max-width:768px)
+B.  @media (max-width:478px) and (orientation:portrait)
+C.  @media (min-width:768px) and (orientation:portrait)
+D.  @media (min-width:1200px)
+
+31.  You are modifying an existing ASP.NET MVC web application to incorporate mobile access. What should you do to ensure that mobile devices view mobile-only pages? (Choose all that apply.)
+A.  Run the Install-Package jQuery.Mobile.MVCcommand using the Package Manager console.
+B.  Create a _Layout.Mobile.cshtml master layout page.
+C.  Create additional views with .Mobile, such as Index.Mobile.cshtml.
+D.  Create additional views with .Mobile, such as Index.Mobile.cshtml as well as a _Layout.Mobile.cshtml master layout page.
+
+32.  You are modifying an ASP.NET MVC web application for a client. The client requires that the application must be viewable on Android devices in a UI format native to the device. What should you do? (Choose all that apply.)
+A.  Run the Install-Package jQuery.Mobile.MVCcommand using the Package Manager console.
+B.  Create a viewport and use @mediaqueries to make styles that are specific for Android.
+C.  Create corresponding mobile views for the project targeted toward Android.
+D.  Modify the Web.config file in Shared views in the project to add in support for other browsers
+
+33. You have a set of requirements that expects a particular action to be accessed only through HTTPS by an authenticated user. What is the best way to meet these requirements?
+A.  Use the Authorizeattribute before the RequireHttpsfilter.
+B.  Use the RequireHttpsattribute before the Authorizefilter.
+C.  Use a custom action filter that combines the check for HTTPS and the check for authentication into a single filter.
+D.  UseAuthorizealone; you do not need to use RequireHttps separately if you already have Authorize, because using Authorizeimplies the use of HTTPS.
+
+34. You have written a shareware application and want to sell it on your personal website. You are considering various approaches for distributing the application after users purchase it. Which of the following is the best approach?
+A.  Use the FileResultaction result to initiate the file download.
+B.  Convert the application to an encoded string and provide it for download through the ContentResult.
+C.  Create a view or partial view that contains an action link to a route in which the user can download the file.
+D.  Create an email containing a link to a route from which the user can download the file.
+
+35.  You have been tasked with modernizing an application created in ASP 3.0. Part of one of the pages contains HTML that comes as a string from a third-party application as part of a service call that populates part of a form. The same form contains input val-ues for your application. You need to support the same business process as the original application, but you also want to use some MVC features. What is the approach?
+A.  Create a single model containing information from your local application. Use strongly-typed binding as much as possible and manually match the rest of the fields.
+B.  Create a single model for the local input fields and the service call input, and use ToValueProviderto map the entire object.
+C.  Create a single model. Use weakly-typed binding for the form fields, and the HTML provided by the third-party application. 
+D.  Create a model that contains only your fields and strongly bind the fields to the model. Create a second model that maps to the fields in the imported HTML and bind to that model using ToValueProvider
+
+36. You are developing an ASP.NET MVC application. You have a set of requirements to create a help section for remote users. Your typical help scheme is help/desktop or help/mobile, so logically this section should be help/remote. The change board wants 
+the links in the application to point to the default support site. Which code segment would you use?
+A.  routes.MapRoute(
+name: “Default”,
+url: “{controller}/{action}/{id}”,
+defaults: new { controller = “Home”, 
+action = “Index”, id = UrlParameter.Optional })
+B.  routes.MapRoute(
+“remote”,
+“help/remote”,
+new { controller = “support”, action = “Index” }
+);
+C.  routes.MapRoute(
+“remote”,
+“help”,
+new { controller = “support”, action = “Index” }
+);
+D.  routes.MapRoute(
+“remote”,
+“remote/help”,
+new { controller = “support”, action = “Index” }
+);
+37.  You are developing an ASP.NET MVC application. You noticed a bug on the DVD controller of the application. You want to ignore the DVD pages until the bug is fixed. What should you do?
+A.  Add route.SetItem(route.Count, “dvd/”);to the RegisterRoutemethod.
+B.  Add route.IgnoreRoute(“dvd/”);to the RegisterRoutemethod.
+C.  Add route.Insert(route.Count,“dvd/”);to the RegisterRoutemethod.
+D.  Add route.Remove(“dvd/”);to the RegisterRoutemethod.
+
+38.  You are the lead developer on a team that has been working on a large website for months, and several controllers are getting unwieldy. You do not have that problem with views and models because most of your communications are through AJAX to display snippets of information on the UI. What changes can best help you solve your problem? (Choose all that apply.)
+A.  Create partial classes for the controllers that have AJAX functionality to create a set 
+of Controller.Ajax.cs files. Put the AJAX-specific functionality in those files.
+B.  Create an area called AJAX. Move all controllers, models, and views into the area.
+C.  Create an area called AJAX. Move the specific AJAX functionality into the Control-lers directory and leave the Views and Models directories empty.
+D.  Create a new ASP.NET MVC 4 application project. Move the AJAX functionality into that so that it will be more responsive.
+
+39.  Your application manages the sale of expensive well-drilling equipment. Your IT direc-tor wants you to add functionality that sends an email to a customer’s sales account manager whenever someone from your client company logs in to the system. What is an appropriate solution? 
+A.  Override the AuthorizeAttributeand apply it to the login action. Run the base method first to handle the authentication and then evaluate the status of the request. If the user is a customer, send the email.
+B.  Create a custom action filter that is globally defined and overrides the OnActionExecutingmethod. This action filter evaluates the status of the user and sends the email if it is a customer. 
+C.  Override the AuthorizeAttributethat is applied to the login action, check for the user’s authentication status, and determine whether it is a customer prior to send-ing it to the base authentication method.
+D.  Create an action filter that overrides the OnActionExecutedmethod and apply it to the login action. This action filter evaluates the status of the user and sends the email if it is a customer. 
+
+40.  You work for a financial services company that deals with many small brokers. Your ex-ecutives want to be able to run a report that details all the actions taken by the brokers on the site as a form of auditing and protection. Neither the application nor system 
+currently stores this kind of information. Which of the following are viable solutions? (Choose all that apply.)
+A.  Create a globally applied custom action filter that implements the OnActionExecutingmethod. Have it store the user, the URL, and the forms collection 
+B. Create a globally applied custom action filter that implements the OnActionExecutingmethod. Have it store the user, the URL, and the forms collection.
+C.  Create a globally applied custom action filter that implements the 
+OnActionExecutedmethod. Set the AllowMultiple parameter to false in the filter. 
+Have it store the user, the URL, and the forms collection.
+D.  Override the AuthorizeAttributeand have it store the user, the URL, and the forms 
+collection
+
+41. You are adding the capability for users to customize their site’s display colors. You are required to provide a slider that enables users to change each RGB element. What can you do to ensure that this gets treated in the model and stored in the database as a 
+single RGB color? (Choose all that apply.)
+A.  Strongly bind the sliders to their own individual fields in the model. Ensure that the model unit for color only implements the GET, where you write code that concat-enates the values.
+B.  Create a custom model binder that knows to look for the three values and how to put them together to get the single color.
+C.  Add the three different elements to the model and ensure that your update state-ment to the database correctly joins the elements to get the appropriate color.
+D.  Create a custom model binder that evaluates the entire color customization process and binds the entire model rather than just managing a subset of the information
+
+42. You are working on a AJAX-heavy site, and your script files are separated in your solu-tion by function. You have already implemented minification and bundling, but you are still getting reports of poor performance when users try to access your pages. You can-not replicate the problem locally. What additional steps can you take and still provide the same user experience?
+A.  Compress all scripts locally and have the users download the compressed files rather than the uncompressed files.
+B.  Turn IIS compression on, turn on the option to compress dynamic pages, and set the minimum file size to 0 so that every file served will be compressed.
+C.  Turn IIS compression on, disable dynamic page compression, and set the minimum file size to the size of your smallest bundled script file.
+D.  There is nothing more to do without redesigning the site.
+
+43.  You want to implement bundling and minification in your site. What are some of the potential problems you need to be aware of? (Choose all that apply.)
+A.  None; there is no condition in which this is a poor decision.
+B.  You need to be sure you do not bundle too many scripts together because you cannot take advantage of concurrent downloads if only one or two files are being downloaded.
+C.  You should bundle and minimize scripts and CSS files together for maximum effectiveness.
+D.  Not bundling logically linked scripts together can have a negative effect on performance.
+
+44.  Your U.S.-based company recently opened an office in England. Staff members have been making lots of sales calls, which have generated an increase in visits to the company’s websites. Much of the activity involves downloading sales sheets, product 
+descriptions, and other sales support information currently stored in PDFs. There have been some performance-related complaints from remote sales staff, but no local users have noticed any problems. Which of the following are potential solutions? (Choose all that apply.)
+A.  Bundle and minify the PDF files to ensure that there is no wasted space.
+B.  Write an action result that takes a file name and returns a compressed version of the file for download.
+C.  Sign on with a CDN with nodes in North America and Europe and use it to serve files and other static content to sales support staff.
+D.  Add two additional servers and create a server farm to serve your content.
