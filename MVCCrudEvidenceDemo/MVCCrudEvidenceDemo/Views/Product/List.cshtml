@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>List</h2>
+
+<button id="btnGet">Get Product</button>
+<table id="tblProd" class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Description</th>
+            <th>GUID</th>
+            <th>Modified Date</th>
+
+        </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<script>
+    $(function () {
+        $('#btnGet').click(function () {
+           
+            $.ajax({
+                url: "/api/ProductApi/Product",
+                method: "Get",
+                contentType: "application/json",
+                success: function (res) {
+                    loadProduct(res);
+                }
+            })
+        })
+
+        function loadProduct(res) {
+            var target = $('#tblProd tbody');
+            target.empty();
+
+            $.each(res, function (key, val) {
+                $("<tr><td>" + val.Description + '</td><td>' + val.rowguid + '</td><td>' + val.ModifiedDate + '</td></tr>').appendTo(target);
+            })
+        }
+    })
+</script>
